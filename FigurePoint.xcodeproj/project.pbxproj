@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492BB6639E772D802DD26830 /* libPods-FigurePoint-FigurePointUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE2C833BF0C7097A20587F3 /* libPods-FigurePoint-FigurePointUITests.a */; };
 		ED973B9F24863833005B3450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973B9E24863833005B3450 /* AppDelegate.m */; };
-		ED973BA224863833005B3450 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BA124863833005B3450 /* SceneDelegate.m */; };
-		ED973BA524863833005B3450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BA424863833005B3450 /* ViewController.m */; };
-		ED973BA824863833005B3450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED973BA624863833005B3450 /* Main.storyboard */; };
 		ED973BAA24863835005B3450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED973BA924863835005B3450 /* Assets.xcassets */; };
-		ED973BAD24863835005B3450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED973BAB24863835005B3450 /* LaunchScreen.storyboard */; };
 		ED973BB024863835005B3450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BAF24863835005B3450 /* main.m */; };
 		ED973BBA24863836005B3450 /* FigurePointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BB924863836005B3450 /* FigurePointUITests.m */; };
+		ED973BC624863891005B3450 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BC524863891005B3450 /* RootViewController.m */; };
+		ED973BC824863A03005B3450 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED973BC724863A03005B3450 /* Default-568h@2x.png */; };
+		ED973BCB24863A63005B3450 /* FigurePoint2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BCA24863A63005B3450 /* FigurePoint2ViewController.m */; };
+		ED973BCE24863C03005B3450 /* HTTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BCC24863C02005B3450 /* HTTPTool.m */; };
+		ED973BD324863C4C005B3450 /* kline.json in Resources */ = {isa = PBXBuildFile; fileRef = ED973BD024863C4C005B3450 /* kline.json */; };
+		ED973BD424863C4C005B3450 /* depth.json in Resources */ = {isa = PBXBuildFile; fileRef = ED973BD124863C4C005B3450 /* depth.json */; };
+		ED973BD524863C4C005B3450 /* kmon.json in Resources */ = {isa = PBXBuildFile; fileRef = ED973BD224863C4C005B3450 /* kmon.json */; };
+		ED973BD824863CC3005B3450 /* KLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BD724863CC3005B3450 /* KLineModel.m */; };
+		ED973BDB24864140005B3450 /* PointFigureView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BDA24864140005B3450 /* PointFigureView.m */; };
+		ED973BDE2486419B005B3450 /* PointFigureDataProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED973BDD2486419B005B3450 /* PointFigureDataProcesser.m */; };
+		F4B4E07720DFE90649E28EC7 /* libPods-FigurePoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A966D6EF8290FA62F1D66F /* libPods-FigurePoint.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +36,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A966D6EF8290FA62F1D66F /* libPods-FigurePoint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FigurePoint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62964E9DD980CBA620EF89E8 /* Pods-FigurePoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigurePoint.release.xcconfig"; path = "Target Support Files/Pods-FigurePoint/Pods-FigurePoint.release.xcconfig"; sourceTree = "<group>"; };
+		7A507036D8045C70735F5A95 /* Pods-FigurePoint-FigurePointUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigurePoint-FigurePointUITests.debug.xcconfig"; path = "Target Support Files/Pods-FigurePoint-FigurePointUITests/Pods-FigurePoint-FigurePointUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1FFA6547DDEC923F0AFF175 /* Pods-FigurePoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigurePoint.debug.xcconfig"; path = "Target Support Files/Pods-FigurePoint/Pods-FigurePoint.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC8AFD7536C81D378F45CC2 /* Pods-FigurePoint-FigurePointUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FigurePoint-FigurePointUITests.release.xcconfig"; path = "Target Support Files/Pods-FigurePoint-FigurePointUITests/Pods-FigurePoint-FigurePointUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ED973B9A24863833005B3450 /* FigurePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FigurePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED973B9D24863833005B3450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED973B9E24863833005B3450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED973BA024863833005B3450 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		ED973BA124863833005B3450 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		ED973BA324863833005B3450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED973BA424863833005B3450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ED973BA724863833005B3450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED973BA924863835005B3450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED973BAC24863835005B3450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED973BAE24863835005B3450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED973BAF24863835005B3450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED973BB524863836005B3450 /* FigurePointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigurePointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED973BB924863836005B3450 /* FigurePointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FigurePointUITests.m; sourceTree = "<group>"; };
 		ED973BBB24863836005B3450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED973BC424863891005B3450 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ED973BC524863891005B3450 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ED973BC724863A03005B3450 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED973BC924863A63005B3450 /* FigurePoint2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FigurePoint2ViewController.h; sourceTree = "<group>"; };
+		ED973BCA24863A63005B3450 /* FigurePoint2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FigurePoint2ViewController.m; sourceTree = "<group>"; };
+		ED973BCC24863C02005B3450 /* HTTPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPTool.m; sourceTree = "<group>"; };
+		ED973BCD24863C02005B3450 /* HTTPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPTool.h; sourceTree = "<group>"; };
+		ED973BD024863C4C005B3450 /* kline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kline.json; sourceTree = "<group>"; };
+		ED973BD124863C4C005B3450 /* depth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = depth.json; sourceTree = "<group>"; };
+		ED973BD224863C4C005B3450 /* kmon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kmon.json; sourceTree = "<group>"; };
+		ED973BD624863CC3005B3450 /* KLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLineModel.h; sourceTree = "<group>"; };
+		ED973BD724863CC3005B3450 /* KLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLineModel.m; sourceTree = "<group>"; };
+		ED973BD924864140005B3450 /* PointFigureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointFigureView.h; sourceTree = "<group>"; };
+		ED973BDA24864140005B3450 /* PointFigureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointFigureView.m; sourceTree = "<group>"; };
+		ED973BDC2486419B005B3450 /* PointFigureDataProcesser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointFigureDataProcesser.h; sourceTree = "<group>"; };
+		ED973BDD2486419B005B3450 /* PointFigureDataProcesser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointFigureDataProcesser.m; sourceTree = "<group>"; };
+		EEE2C833BF0C7097A20587F3 /* libPods-FigurePoint-FigurePointUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FigurePoint-FigurePointUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B4E07720DFE90649E28EC7 /* libPods-FigurePoint.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +82,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492BB6639E772D802DD26830 /* libPods-FigurePoint-FigurePointUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360DB23D26547FE47DD8E32B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1FFA6547DDEC923F0AFF175 /* Pods-FigurePoint.debug.xcconfig */,
+				62964E9DD980CBA620EF89E8 /* Pods-FigurePoint.release.xcconfig */,
+				7A507036D8045C70735F5A95 /* Pods-FigurePoint-FigurePointUITests.debug.xcconfig */,
+				BCC8AFD7536C81D378F45CC2 /* Pods-FigurePoint-FigurePointUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEFB333B35DBA90CBECD6881 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A966D6EF8290FA62F1D66F /* libPods-FigurePoint.a */,
+				EEE2C833BF0C7097A20587F3 /* libPods-FigurePoint-FigurePointUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED973B9124863833005B3450 = {
 			isa = PBXGroup;
 			children = (
+				ED973BC724863A03005B3450 /* Default-568h@2x.png */,
+				ED973BCF24863C4C005B3450 /* Resource */,
 				ED973B9C24863833005B3450 /* FigurePoint */,
 				ED973BB824863836005B3450 /* FigurePointUITests */,
 				ED973B9B24863833005B3450 /* Products */,
+				360DB23D26547FE47DD8E32B /* Pods */,
+				AEFB333B35DBA90CBECD6881 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,13 +136,19 @@
 			children = (
 				ED973B9D24863833005B3450 /* AppDelegate.h */,
 				ED973B9E24863833005B3450 /* AppDelegate.m */,
-				ED973BA024863833005B3450 /* SceneDelegate.h */,
-				ED973BA124863833005B3450 /* SceneDelegate.m */,
-				ED973BA324863833005B3450 /* ViewController.h */,
-				ED973BA424863833005B3450 /* ViewController.m */,
-				ED973BA624863833005B3450 /* Main.storyboard */,
+				ED973BC424863891005B3450 /* RootViewController.h */,
+				ED973BC924863A63005B3450 /* FigurePoint2ViewController.h */,
+				ED973BCA24863A63005B3450 /* FigurePoint2ViewController.m */,
+				ED973BD924864140005B3450 /* PointFigureView.h */,
+				ED973BDC2486419B005B3450 /* PointFigureDataProcesser.h */,
+				ED973BDD2486419B005B3450 /* PointFigureDataProcesser.m */,
+				ED973BDA24864140005B3450 /* PointFigureView.m */,
+				ED973BCD24863C02005B3450 /* HTTPTool.h */,
+				ED973BCC24863C02005B3450 /* HTTPTool.m */,
+				ED973BD624863CC3005B3450 /* KLineModel.h */,
+				ED973BD724863CC3005B3450 /* KLineModel.m */,
+				ED973BC524863891005B3450 /* RootViewController.m */,
 				ED973BA924863835005B3450 /* Assets.xcassets */,
-				ED973BAB24863835005B3450 /* LaunchScreen.storyboard */,
 				ED973BAE24863835005B3450 /* Info.plist */,
 				ED973BAF24863835005B3450 /* main.m */,
 			);
@@ -108,6 +164,16 @@
 			path = FigurePointUITests;
 			sourceTree = "<group>";
 		};
+		ED973BCF24863C4C005B3450 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ED973BD024863C4C005B3450 /* kline.json */,
+				ED973BD124863C4C005B3450 /* depth.json */,
+				ED973BD224863C4C005B3450 /* kmon.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED973BBE24863836005B3450 /* Build configuration list for PBXNativeTarget "FigurePoint" */;
 			buildPhases = (
+				E719C6438E54237F74C483FE /* [CP] Check Pods Manifest.lock */,
 				ED973B9624863833005B3450 /* Sources */,
 				ED973B9724863833005B3450 /* Frameworks */,
 				ED973B9824863833005B3450 /* Resources */,
@@ -132,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED973BC124863836005B3450 /* Build configuration list for PBXNativeTarget "FigurePointUITests" */;
 			buildPhases = (
+				4E50FAD4D8A5019539AEBBD9 /* [CP] Check Pods Manifest.lock */,
 				ED973BB124863836005B3450 /* Sources */,
 				ED973BB224863836005B3450 /* Frameworks */,
 				ED973BB324863836005B3450 /* Resources */,
@@ -188,9 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED973BAD24863835005B3450 /* LaunchScreen.storyboard in Resources */,
+				ED973BD324863C4C005B3450 /* kline.json in Resources */,
+				ED973BD524863C4C005B3450 /* kmon.json in Resources */,
 				ED973BAA24863835005B3450 /* Assets.xcassets in Resources */,
-				ED973BA824863833005B3450 /* Main.storyboard in Resources */,
+				ED973BC824863A03005B3450 /* Default-568h@2x.png in Resources */,
+				ED973BD424863C4C005B3450 /* depth.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,15 +273,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E50FAD4D8A5019539AEBBD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FigurePoint-FigurePointUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E719C6438E54237F74C483FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FigurePoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED973B9624863833005B3450 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED973BA524863833005B3450 /* ViewController.m in Sources */,
+				ED973BCE24863C03005B3450 /* HTTPTool.m in Sources */,
+				ED973BCB24863A63005B3450 /* FigurePoint2ViewController.m in Sources */,
 				ED973B9F24863833005B3450 /* AppDelegate.m in Sources */,
+				ED973BD824863CC3005B3450 /* KLineModel.m in Sources */,
+				ED973BDE2486419B005B3450 /* PointFigureDataProcesser.m in Sources */,
 				ED973BB024863835005B3450 /* main.m in Sources */,
-				ED973BA224863833005B3450 /* SceneDelegate.m in Sources */,
+				ED973BC624863891005B3450 /* RootViewController.m in Sources */,
+				ED973BDB24864140005B3450 /* PointFigureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,25 +353,6 @@
 			targetProxy = ED973BB624863836005B3450 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ED973BA624863833005B3450 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED973BA724863833005B3450 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ED973BAB24863835005B3450 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED973BAC24863835005B3450 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ED973BBC24863836005B3450 /* Debug */ = {
@@ -365,6 +467,7 @@
 		};
 		ED973BBF24863836005B3450 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FFA6547DDEC923F0AFF175 /* Pods-FigurePoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +485,7 @@
 		};
 		ED973BC024863836005B3450 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62964E9DD980CBA620EF89E8 /* Pods-FigurePoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +503,7 @@
 		};
 		ED973BC224863836005B3450 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A507036D8045C70735F5A95 /* Pods-FigurePoint-FigurePointUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7386VQTH7S;
@@ -417,6 +522,7 @@
 		};
 		ED973BC324863836005B3450 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC8AFD7536C81D378F45CC2 /* Pods-FigurePoint-FigurePointUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7386VQTH7S;

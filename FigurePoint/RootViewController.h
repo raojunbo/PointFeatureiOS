@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RootViewController.h
 //  FigurePoint
 //
 //  Created by rjb on 2020/6/2.
@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (nonatomic, strong) UIWindow* window;
+NS_ASSUME_NONNULL_BEGIN
+
+@interface RootViewController : UIViewController
+
 @end
 
+NS_ASSUME_NONNULL_END

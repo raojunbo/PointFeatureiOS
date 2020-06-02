@@ -1,0 +1,6 @@
+framework module Pods_FigurePoint {
+  umbrella header "Pods-FigurePoint-umbrella.h"
+
+  export *
+  module * { export * }
+}
